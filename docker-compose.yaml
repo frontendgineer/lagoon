@@ -1,7 +1,7 @@
 version: '3.2'
 services:
   mariadb:
-    image: ${IMAGE_REPO:-lagoon}/mariadb
+    image: ${IMAGE_REPO:-lagoon}/centos7-mariadb10
     volumes:
       - ./services/mariadb/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
       - ./services/mariadb/rerun_initdb.sh:/rerun_initdb.sh

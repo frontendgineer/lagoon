@@ -166,7 +166,7 @@ mutation FillAPI {
   KickstartSlack: addNotificationSlack(input: {name: "amazeeio--lagoon-kickstart", webhook: "https://hooks.slack.com/services/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", channel: "lagoon-kickstart"}) {
     id
   }
-  KickstartOpenshift: addOpenshift(input: {id: 3, name: "kickstart-openshift", console_url: "[REPLACE ME WITH OPENSHIFT URL]", token: "[REPLACE ME WITH OPENSHIFT LAGOON SERVICEACCOUTN TOKEN]"}) {
+  KickstartOpenshift: addOpenshift(input: {id: 3, name: "kickstart-openshift", console_url: "https://192.168.65.24:8443", token: "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJrdWJlcm5ldGVzL3NlcnZpY2VhY2NvdW50Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9uYW1lc3BhY2UiOiJsYWdvb24iLCJrdWJlcm5ldGVzLmlvL3NlcnZpY2VhY2NvdW50L3NlY3JldC5uYW1lIjoib3BlbnNoaWZ0YnVpbGRkZXBsb3ktdG9rZW4temo2ZzQiLCJrdWJlcm5ldGVzLmlvL3NlcnZpY2VhY2NvdW50L3NlcnZpY2UtYWNjb3VudC5uYW1lIjoib3BlbnNoaWZ0YnVpbGRkZXBsb3kiLCJrdWJlcm5ldGVzLmlvL3NlcnZpY2VhY2NvdW50L3NlcnZpY2UtYWNjb3VudC51aWQiOiJjZDhhNTJhMi0wM2E1LTExZTgtOGQyYy1hNjE5YWI1YzU1ZjgiLCJzdWIiOiJzeXN0ZW06c2VydmljZWFjY291bnQ6bGFnb29uOm9wZW5zaGlmdGJ1aWxkZGVwbG95In0.XmrbSOrshDFYEnFrrU6uWg-a0IJPbmedhXZTG3Sgf-uAVuJ2lXHXT21PAnUykMGNd1AFmkHf2Kt7V1nD3lxm6wqfvlV263uHuXQm5lrRdEJnocL8BHQSimcbYGmFhwDVNkiDwQT847m81Ow4wkg_X0jnhdjV05t1BWbL0sPGyyScKUCunmjps48cRHMhoJFEWSlXkdTLZLpsjmgu-UA0_3UsYUv8MtGbGfFHW4AI6bdmlzAeCEM6Y4utgOcmTAE_pFrljMyUZluLJYU1KPHwZFUjEgDpohNB0Lgz2xl1ys0xdwnmMr_zl795ZEBtO4nfSrdhmNQ2SHJH0_FT56lrlA"}) {
     id
   }
   KickstartProject: addProject(input: {id:12, name: "lagoon", customer: 4, openshift: 3, git_url: "git@github.com:amazeeio/lagoon.git"}) {
